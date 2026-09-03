@@ -39,7 +39,7 @@ The following techniques were applied:
 Many validations have been done after data cleaning, below two examples with sns.boxplot for the votes and sns.histplot for the income.
 
 <p align="center">
-<img src="images/03_Votes_boxplot" width="900">
+<img src="images/03_Votes_boxplot.png" width="900">
 
 <p align="center">
 <img src="images/10_income_distribution_adjusted.png" width="900">
@@ -58,7 +58,7 @@ Examples of the insights found:
 
 ### Correlation between votes and score
 <p align="center">
-<img src="images/17_corr_votes_score.png width="900">
+<img src="images/17_corr_votes_score.png" width="900">
 
 ### Distribution of income per genre
 <p align="center">
@@ -67,3 +67,13 @@ Examples of the insights found:
 ### Correlation matrix bewtween numerical entries
 <p align="center">
 <img src="images/16_corr_matrix.png" width="900">
+
+## Key Findings
+
+- Most movies in the list are dated between 1990 and 2005.
+- The United States is by far the most represented country.
+- Movie income shows little correlation with IMDB ratings, the Avengers movies have got by far the highest income.
+- The number of votes is positively correlated with movie scores.
+- Christopher Nolan is among the most highly rated directors in the dataset, although Frank Darabont scores the most in the average.
+- Action and animation are the genres with the highest average income.
+- Crime movies have highest score in the average while Drama movies has the widest distribution, thanks also to their high presence.
