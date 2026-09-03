@@ -36,12 +36,34 @@ The following techniques were applied:
 - Category normalization
 - Manual validation of corrupted income values
 
-Many validations have been done after data cleaning, below two examples with sns.boxplot and sns.histplot
+Many validations have been done after data cleaning, below two examples with sns.boxplot for the votes and sns.histplot for the income.
 
 <p align="center">
-<img src="images/04_Score_boxplot" width="900">
+<img src="images/03_Votes_boxplot" width="900">
 
 <p align="center">
 <img src="images/10_income_distribution_adjusted.png" width="900">
 
 ## Exploratory Data Analysis (EDA)
+
+Examples of the insights found:
+
+### Top countries by movie
+<p align="center">
+<img src="images/11_top_countries_by_movie.png" width="900">
+
+### Top directors by average score
+<p align="center">
+<img src="images/15_top_directors_by_avg_score.png" width="900">
+
+### Correlation between votes and score
+<p align="center">
+<img src="images/17_corr_votes_score.png width="900">
+
+### Distribution of income per genre
+<p align="center">
+<img src="images/21_distribution_income_per_genre.png" width="900">
+
+### Correlation matrix bewtween numerical entries
+<p align="center">
+<img src="images/16_corr_matrix.png" width="900">
