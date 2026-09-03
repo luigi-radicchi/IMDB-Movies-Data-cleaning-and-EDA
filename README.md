@@ -77,3 +77,11 @@ Examples of the insights found:
 - Christopher Nolan is among the most highly rated directors in the dataset, although Frank Darabont scores the most in the average.
 - Action and animation are the genres with the highest average income.
 - Crime movies have highest score in the average while Drama movies has the widest distribution, thanks also to their high presence.
+
+## Tools used
+- Python
+- Pandas
+- NumPy
+- Seaborn
+- Matplotlib
+- Jupyter Notebook
